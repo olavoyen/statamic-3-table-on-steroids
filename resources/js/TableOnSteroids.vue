@@ -94,12 +94,6 @@ export default {
           delimiter: this.delimiter,
         })
         var result = []
-        const headerLine = {
-          cells: [],
-        }
-        // save the keys as the first row
-        Object.keys(entries[0]).forEach((key) => headerLine.cells.push(key))
-        result.push(headerLine)
         entries.forEach((entry) => {
           const line = {
             cells: [],
