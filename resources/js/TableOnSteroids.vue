@@ -17,7 +17,7 @@
     <span
       >delimiter:
       <input
-        class="input-text d-inline-block w-8"
+        class="input-text inline w-8"
         :disabled="useTab"
         type="text"
         placeholder=","
