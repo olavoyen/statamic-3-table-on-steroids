@@ -17,7 +17,7 @@
     <span
       >delimiter:
       <input
-        class="input-text w-8"
+        class="input-text d-inline-block w-8"
         :disabled="useTab"
         type="text"
         placeholder=","
@@ -89,7 +89,7 @@ export default {
       this.error = ""
       try {
         const entries = parse(this.csv, {
-          columns: true,
+          columns: false,
           skip_empty_lines: true,
           delimiter: this.delimiter,
         })
