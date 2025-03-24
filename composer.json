@@ -1,5 +1,5 @@
 {
-    "name": "goellner/table-on-steroids",
+    "name": "olavoyen/table-on-steroids",
     "type": "statamic-addon",
     "description": "Adds a CSV parser for the table fieldtype",
     "keywords": [
